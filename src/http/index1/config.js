@@ -5,13 +5,13 @@ export default {
       url:"4001/getIndexData",
       method:"get"
     },
-    getGoods:{
-        url:"/api/goods",
+    getIndexCateModuleData:{
+        url:"4001/getIndexCateModule",
         method:"get"
     },
-    getRatings:{
-        url:"/api/ratings",
-        method:"get"
-    }
+    getIndexCateListData:{
+      url:"4001/getIndexCateListData",
+      method:"get"
+  }
   }
 }
